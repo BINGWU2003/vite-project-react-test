@@ -6,7 +6,9 @@ import Hello from './components/Hello'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  console.log(import.meta.env.MODE)
+  console.log(import.meta.env.VITE_APP_TITLE)
+  console.log(import.meta.env.VITE_ENABLE_FEATURE_X)
   return (
     <>
       <Hello name="TypeScript" />
