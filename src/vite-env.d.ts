@@ -24,3 +24,7 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+
+declare const __my_env1__: string
+declare const __my_env2__: string
+declare const __my_env3__: string

@@ -9,6 +9,8 @@ function App() {
   console.log(import.meta.env.MODE)
   console.log(import.meta.env.VITE_APP_TITLE)
   console.log(import.meta.env.VITE_ENABLE_FEATURE_X)
+  console.log(__my_env1__, __my_env2__)
+  console.log(__my_env3__)
   return (
     <>
       <Hello name="TypeScript" />
